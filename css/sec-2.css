@@ -175,9 +175,27 @@
     column-gap: 1.3em;
 }
 
+.sec-2>#right-part>.child>div>.cards>.card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4em;
+}
+
 
 .sec-2>#right-part>.child>div>.cards>.card>p {
     width: 8.5em;
+}
+
+.sec-2>#right-part>.child>div>.cards>.card>p.name{
+    font-size: 17px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.sec-2>#right-part>.child>div>.cards>.card>p.category,p.sub-names{
+    color: hsl(0, 0%, 70%);
+    font-size: 14.875px;
+    font-weight: 400;
 }
 
 
