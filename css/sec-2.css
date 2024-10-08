@@ -1,17 +1,60 @@
+.sec-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 0%);
+    height: 158em;
+}
 
-.sec-2{
+.sec-2>.part {
+    background-color: #161616;
+    position: fixed;
+    height: 100%;
+    top: 5em;
+    overflow-y: scroll;
+}
+
+.sec-2>#right-part {
+    display: block;
+    padding: 1em;
+    right: 0;
+}
+
+
+
+.sec-2>#right-part h1 {
+    font-size: 24pt;
+}
+
+.sec-2>#right-part>.child{
+    margin-bottom: 10em;
+}
+
+.sec-2>#right-part>.child>div>.top {
     display: flex;
     justify-content: space-between;
 }
 
-.sec-2 > .part{
-    background-color: grey;
-}
-
-.sec-2 > #right-part h1{
-    font-size: 24pt;
-}
-
-.sec-2 > #right-part> div >.card>.top{
+.sec-2>#right-part>.child>div>.cards {
     display: flex;
+    justify-content: space-evenly;
+    column-gap: 1em;
+}
+
+
+.sec-2>#right-part>.child>div>.cards>.card>p {
+    width: 8.5em;
+}
+
+
+.sec-2>#right-part>.child div>.cards>.card>.profile {
+    width: 8.5em;
+    height: 8.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.sec-2>#right-part>.child>.Popular-artists>.cards>.card>.profile {
+    border-radius: 100%;
 }

@@ -1,6 +1,9 @@
+
 .sec-1>nav {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .sec-1>nav>#logo {
