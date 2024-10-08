@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.sec-1>nav>#center-item{
+    margin-left: 11em;
+}
+
 .sec-1>nav>#center-item>.home-icon {
     background-color: #1f1f1f;
     padding: 0.4em;
@@ -70,6 +74,7 @@
 
 .sec-1>nav>#signup-and-login {
     display: flex;
+    margin-right: 0.8em;
 }
 
 .sec-1>nav>#signup-and-login>button {

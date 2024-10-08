@@ -3,14 +3,14 @@
     justify-content: space-between;
     background-color: hsl(0, 0%, 0%);
     height: 158em;
+    column-gap: 0.5em;
 }
 
 .sec-2>.part {
     background-color: #161616;
-    position: fixed;
+    position: relative;
     height: 100%;
-    top: 5em;
-    overflow-y: scroll;
+    top: 2.7em;
 }
 
 .sec-2>#left-part {
@@ -139,45 +139,40 @@
     font-size: 14px;
 }
 
-/* .sec-2>#left-part>.links-and-lang>.lang>button{
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
-    font-size: 14px;
-    padding-inline: 32px;
-    cursor: pointer;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    background: none;
-    border: 0.8px solid hsl(0, 0%, 49%);
-    border-radius: 20px;
-} */
+
 
 
 .sec-2>#right-part {
     display: block;
     padding: 1em;
-    right: 0;
+    overflow-y: scroll;
+    height: 35em;
 }
 
 
 
 .sec-2>#right-part h1 {
-    font-size: 24pt;
+    font-size: 25.5px;
+    font-weight: 700;
 }
 
 .sec-2>#right-part>.child {
-    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2em;
 }
 
 .sec-2>#right-part>.child>div>.top {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1.2em;
 }
 
 .sec-2>#right-part>.child>div>.cards {
     display: flex;
     justify-content: space-evenly;
-    column-gap: 1em;
+    column-gap: 1.3em;
 }
 
 
@@ -198,3 +193,49 @@
 .sec-2>#right-part>.child>.Popular-artists>.cards>.card>.profile {
     border-radius: 100%;
 }
+
+.sec-2>#right-part>.child>.quick-links-and-copyright{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links>.links-parts{
+    display: flex;
+    column-gap: 7em;
+}
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links>.links-parts>.part{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links>.links-parts>.part>h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links>.links-parts>.part>p{
+    font-size: 17px;
+    font-weight: 400;
+    color: hsl(0, 0%, 70%);
+}
+.sec-2>#right-part>.child>.quick-links-and-copyright>.quick-links>.social-media{
+    display: flex;
+    column-gap: 1em;
+}
+
+
+
+.sec-2>#right-part>.child>.quick-links-and-copyright>span{
+   height: 0;
+   width: 100%;
+   border-top: 0.2px solid rgb(58, 58, 58);
+}
+
