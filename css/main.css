@@ -1,0 +1,18 @@
+@import url('/css/sec-1.css');
+@import url('/css/sec-2.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 0%);
+}
+
+section{
+    padding: 0.4em;
+}
+
+

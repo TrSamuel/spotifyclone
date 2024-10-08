@@ -1,0 +1,93 @@
+.sec-1>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-1>nav>#logo {
+    padding-left: 1.5em;
+}
+
+.sec-1>nav>#logo>img {
+    height: 1.9em;
+}
+
+.sec-1>nav>#center-item {
+    column-gap: 0.5em;
+}
+
+.sec-1>nav>#center-item>.home-icon>img {
+    height: 1.8em;
+}
+
+.sec-1>nav>#center-item>.search-bar>img {
+    height: 2em;
+}
+
+.sec-1>nav>.part {
+    display: flex;
+    align-items: center;
+}
+
+.sec-1>nav>#center-item>.home-icon {
+    background-color: #1f1f1f;
+    padding: 0.4em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.sec-1>nav>#center-item>.search-bar {
+    display: flex;
+    background-color: #1f1f1f;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 20px;
+}
+
+.sec-1>nav>#center-item>.search-bar>input {
+    background-color: #1f1f1f;
+    border: none;
+    outline: none;
+    width: 23.5em;
+    height: 3em;
+    font-size: 12.5pt;
+}
+
+.sec-1>nav>#center-item>.search-bar>input::placeholder {
+    color: #b3b3b3;
+}
+
+.sec-1>nav>#center-item>.search-bar>.vertical-line {
+    width: 0.5px;
+    height: 1.5em;
+    background-color: hsl(0, 0%, 97%);
+}
+
+.sec-1>nav>#signup-and-login {
+    display: flex;
+}
+
+.sec-1>nav>#signup-and-login>button {
+    border: none;
+    outline: none;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.sec-1>nav>#signup-and-login>button.sign-up{
+    color: hsl(0, 0%, 70%);
+    background: none;
+}
+
+.sec-1>nav>#signup-and-login>button.log-in{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+}

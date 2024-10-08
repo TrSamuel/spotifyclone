@@ -1,0 +1,17 @@
+
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2 > .part{
+    background-color: grey;
+}
+
+.sec-2 > #right-part h1{
+    font-size: 24pt;
+}
+
+.sec-2 > #right-part> div >.card>.top{
+    display: flex;
+}
