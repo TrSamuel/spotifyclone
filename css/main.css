@@ -1,5 +1,6 @@
 @import url('/css/sec-1.css');
 @import url('/css/sec-2.css');
+@import url('/css/sec-3.css'); 
 
 ::-webkit-scrollbar {
     width: 12.5px;
@@ -31,16 +32,15 @@
 }
 
 body{
-    overflow-y: hidden;
+  background-color: #000000;
 }
 
 
 .container {
     background-color: hsl(0, 0%, 0%);
-}
-
-section{
-    padding: 0.4em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 

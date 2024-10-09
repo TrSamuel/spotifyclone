@@ -2,12 +2,13 @@
 .sec-1>nav {
     display: flex;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
+    margin-top: 0.5em;
 }
 
 .sec-1>nav>#logo {
     padding-left: 1.5em;
+    cursor: pointer;
 }
 
 .sec-1>nav>#logo>img {
@@ -18,12 +19,27 @@
     column-gap: 0.5em;
 }
 
+.sec-1>nav>#center-item>.home-icon {
+    background-color: #1f1f1f;
+    padding: 0.45em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: 1.9em;
+    height: 1.9em;
+    cursor: pointer;
+}
+
 .sec-1>nav>#center-item>.home-icon>img {
     height: 1.8em;
+    margin-top: 0.1em;
 }
 
 .sec-1>nav>#center-item>.search-bar>img {
     height: 2em;
+    cursor: pointer;
 }
 
 .sec-1>nav>.part {
@@ -35,14 +51,7 @@
     margin-left: 11em;
 }
 
-.sec-1>nav>#center-item>.home-icon {
-    background-color: #1f1f1f;
-    padding: 0.4em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 100%;
-}
+
 
 .sec-1>nav>#center-item>.search-bar {
     display: flex;
@@ -51,15 +60,21 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.sec-1>nav>#center-item>.search-bar>img{
+    height: 1.4em;
 }
 
 .sec-1>nav>#center-item>.search-bar>input {
     background-color: #1f1f1f;
     border: none;
     outline: none;
-    width: 23.5em;
+    width: 23em;
     height: 3em;
     font-size: 12.5pt;
+    cursor: pointer;
 }
 
 .sec-1>nav>#center-item>.search-bar>input::placeholder {
@@ -69,7 +84,9 @@
 .sec-1>nav>#center-item>.search-bar>.vertical-line {
     width: 0.5px;
     height: 1.5em;
-    background-color: hsl(0, 0%, 97%);
+    background-color: hsl(0, 0%, 49%);
+    margin-right: 0.5em;
+    cursor: pointer;
 }
 
 .sec-1>nav>#signup-and-login {
